@@ -4,8 +4,9 @@ Esta aplicación está diseñada para manejar consultas utilizando un modelo de 
 
 ## Requisitos previos
 
-1. **Python 3**: Asegúrate de tener instalado Python 3.x.
-2. **Ollama**: Esta aplicación requiere que Ollama esté instalado y ejecutándose localmente. Sigue la [guía de instalación de Ollama](https://github.com/ollama/ollama/blob/main/README.md#quickstart) para configurarla.
+1. **Python 3**: Asegúrate de tener instalado Python 3.x. Ejecuta cmd -> y escribe
+2. **Ollama**: Esta aplicación requiere que Ollama esté instalado (4.7 GB) Version Mini de 8b y ejecutándose localmente.
+   Sigue la [guía de instalación de Ollama](https://github.com/ollama/ollama/blob/main/README.md#quickstart) para configurarla.
 
 ## Configuración
 
