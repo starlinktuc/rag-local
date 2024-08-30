@@ -1,55 +1,54 @@
-# Local RAG with Python and Flask
+# RAG local con Python y Flask
 
-This application is designed to handle queries using a language model and a vector database. It generates multiple versions of a user query to retrieve relevant documents and provides answers based on the retrieved context.
+Esta aplicación está diseñada para manejar consultas utilizando un modelo de lenguaje y una base de datos vectorial. Genera múltiples versiones de una consulta de usuario para recuperar documentos relevantes y proporciona respuestas basadas en el contexto recuperado.
 
-## Prerequisites
+## Requisitos previos
 
-1. **Python 3**: Ensure you have Python 3.x installed.
-2. **Ollama**: This app requires Ollama to be installed and running locally. Follow the [Ollama installation guide](https://github.com/ollama/ollama/blob/main/README.md#quickstart) to set it up.
+1. **Python 3**: Asegúrate de tener instalado Python 3.x.
+2. **Ollama**: Esta aplicación requiere que Ollama esté instalado y ejecutándose localmente. Sigue la [guía de instalación de Ollama](https://github.com/ollama/ollama/blob/main/README.md#quickstart) para configurarla.
 
-## Setup
+## Configuración
 
-1. **Clone the repository**:
+1. **Clonar el repositorio**:
 ```bash
 $ git clone https://github.com/your-repo/local-rag.git
 $ cd local-rag
 ```
 
-2. **Create a virtual environment**:
+2. **Crear un entorno virtual**:
 ```bash
 $ python -m venv venv
 $ source venv/bin/activate
 
-# For Windows user
+# Para usuarios de Windows
 # venv\Scripts\activate
 ```
 
-3. **Install dependencies**:
+3. **Instalar dependencias**:
 ```bash
 $ pip install -r requirements.txt
 ```
 
-4. **Run Ollama**:
-Ensure Ollama is installed and running locally. Refer to the [Ollama documentation](https://github.com/ollama/ollama/blob/main/README.md#quickstart) for setup instructions.
-- Install llm model
+4. **Ejecutar Ollama**:
+Asegúrese de que Ollama esté instalado y ejecutándose localmente. Consulte la [documentación de Ollama](https://github.com/ollama/ollama/blob/main/README.md#quickstart) para obtener instrucciones de configuración.
+- Instalar el modelo llm
 ```bash
 $ ollama pull mistral
 ```
-- Install text embedding model
+- Instalar el modelo de incrustación de texto
 ```bash
 $ ollama pull nomic-embed-text
 ```
-- Run Ollama
+- Ejecutar Ollama
 ```bash
 $ ollama serve
 ```
 
-## Running the App
+## Ejecución de la aplicación
 ```bash
 $ python app.py
 ```
 
+## Conclusión
 
-## Conclusion
-
-This app leverages a language model and a vector database to provide enhanced query handling capabilities. Ensure Ollama is running locally and follow the setup instructions to get started.
+Esta aplicación aprovecha un modelo de lenguaje y una base de datos de vectores para proporcionar capacidades mejoradas de manejo de consultas. Asegúrese de que Ollama se esté ejecutando localmente y siga las instrucciones de configuración para comenzar.
